@@ -1,0 +1,66 @@
+body {
+  background-image: url(src/img/Background.jpg);
+}
+
+* {
+  margin: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  width: 20em;
+  height: 15em;
+  border-radius: 15px;
+  background-color: aliceblue;
+  cursor: pointer;
+  animation: img 5s ease-out;
+  background-image: url(src/img/Fundo\ homem\ aranha\ preto.jpg);
+}
+
+img:hover {
+  transform: scale(1.5);
+  background-image: url(src/img/Fundo\ preto\ aranha\ vermelha.jpg);
+}
+
+.derradeiras {
+  text-align: center;
+}
+
+@keyframes img {
+  from {
+    margin-top: -80%;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+#title {
+  color: aliceblue;
+  border-style: groove;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(182, 6, 38);
+}
+
+#trilha-sonora {
+  color: aliceblue;
+  margin-left: 39%;
+}
+
+#cenas-do-filme {
+  color: aliceblue;
+  background-color: rgb(43, 39, 39);
+  box-sizing: 15px;
+  border-radius: 15px;
+  margin-left: 5em;
+}
+
+#jescklay {
+  text-align: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,140 @@
+body {
+  background-image: url(src/img/Fitas\ filmes.jfif);
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: img 5s ease-out;
+}
+
+#title {
+  color: aliceblue;
+  background-color: rgb(182, 6, 38);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  border-style: groove;
+  width: 100%;
+  height: 5rem;
+  margin-top: 20px;
+  align-items: center;
+  box-shadow: none;
+  box-shadow: 10px 5px 5px rgb(5, 37, 4);
+}
+
+.container-footer img {
+  width: 15rem;
+  margin: 15px;
+  padding: 25px;
+  margin-top: 30%;
+  animation: pulse 2s infinite;
+  box-shadow: 1px 5px;
+  box-shadow: 10px 5px 5px rgb(5, 37, 4);
+}
+
+@keyframes img {
+  from {
+    margin-block-end: -80%;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-style: groove;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  background-image: url(src/img/Background.jpg);
+}
+
+.container-footer h1 {
+  background-color: rgb(182, 6, 38);
+  font-size: 15px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 15px;
+  color: aliceblue;
+  width: 80%;
+  margin-left: 25px;
+}
+
+.container-footer p {
+  letter-spacing: 5px;
+  margin-top: 5px;
+  border-style: groove;
+  font-weight: 1000;
+  width: 15px;
+  margin-left: 40px;
+  color: rgb(0, 0, 14);
+  box-shadow: 5px 5px 5px rgb(5, 37, 4);
+}
+
+footer h2 {
+  font-size: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
+  color: black;
+}
+
+footer h2:hover {
+  color: aliceblue;
+  background-color: rgb(182, 6, 38);
+  border-radius: 15px;
+  width: 90%;
+}
+
+.button {
+  border-radius: 8px;
+  margin: 2px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 10px;
+  padding: 2px 5px;
+  text-align: center;
+  border: solid 1px rgb(5, 0, 12);
+  color: rgb(240, 243, 236);
+  background-color: rgb(250, 17, 17);
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.7s ese;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+.div-botao {
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container-max {
+  width: 95%;
+  height: 50px;
+  margin-left: 1.7rem;
+}
